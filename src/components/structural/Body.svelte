@@ -228,7 +228,8 @@
                 },
 			],
 		},
-		{
+        /* FIXME: replace with my projects
+        {
 			type: 'simple-details',
 			label: 'Projects',
 			details: [
@@ -236,25 +237,23 @@
 					title: 'Hello Pizza Truck',
 					url: 'http://bit.ly/2VXTVJ3',
 					link: 'hellopizzatruck.com',
-					description:
-						'Static site for selling food truck. Built with Gatsby, React hooks, and Slick carousel.',
+					description: 'Static site for selling food truck. Built with Gatsby, React hooks, and Slick carousel.',
 				},
 				{
 					title: 'Newsmash',
 					url: 'http://bit.ly/2Ix2sKW',
 					link: 'newsmashed.herokuapp.com',
-					description:
-						'Data visualization for the news. Integrated three external APIs with React/Redux app and PostgreSQL.',
+					description: 'Data visualization for the news. Integrated three external APIs with React/Redux app and PostgreSQL.',
 				},
 				{
 					title: 'Svelte Resume',
 					url: 'bit.ly/38E1FCO',
 					link: 'bit.ly/svelte-resume',
-					description:
-						'Flexible and customizable PDF resume template built with Svelte.',
+					description: 'Flexible and customizable PDF resume template built with Svelte.',
 				},
 			],
 		},
+        */
 	];
 </script>
 
