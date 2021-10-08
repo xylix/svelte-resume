@@ -23,9 +23,11 @@
 </style>
 
 <div id="footer">
-	<div class="branding">
+	<!-- 
+    <div class="branding">
     MADE WITH
 		<i class="fas fa-heart" />
 		<a href="http://bit.ly/38E1FCO">SVELTE RESUME</a>
 	</div>
+    -->
 </div>

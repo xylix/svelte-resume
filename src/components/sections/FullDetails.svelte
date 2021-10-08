@@ -4,7 +4,7 @@
 </script>
 
 <div>
-	{#each details as { title, subtitle, link, dates, location, description, list }}
-		<FullDetail {title} {subtitle} {link} {dates} {location} {description} {list} />
+	{#each details as details}
+		<FullDetail details={details} />
 	{/each}
 </div>

@@ -1,12 +1,17 @@
 <script>
 	import ContactItem from './ContactItem.svelte';
-	export let title;
+	/* export let title;
 	export let subtitle;
 	export let link;
 	export let dates;
 	export let location;
 	export let description;
+    export let technologies;
 	export let list;
+    */ 
+
+    export let details;
+    let {title, subtitle, link, dates, location, description, list, technologies } = details
 	let linkDetail = { text: link };
 	let locationDetail = { text: location, icon: 'location' };
 </script>
@@ -50,6 +55,11 @@
 		</div>
 	</div>
 	<div class="bottom">
+		{#if technologies}
+			<div class="description">{technologies}</div>
+		{/if}
+        <!-- TODO: make this look nice-->
+        <br>
 		{#if description}
 			<div class="description">{description}</div>
 		{/if}
