@@ -38,9 +38,9 @@
 		{:else if type === 'phone'}
 			<a href="tel:{text}">{text}</a>
 		{:else if url}
-			<a href="http://{url}">{text}</a>
+			<a href="https://{url}">{text}</a>
 		{:else}
-			<a href="http://{text}">{text}</a>
+			<a href="https://{text}">{text}</a>
 		{/if}
 	{:else}{text}{/if}
 </div>

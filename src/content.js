@@ -103,7 +103,7 @@ const mainColumnContent = [
 			type: 'full-details',
 			label: 'Experience',
 			details: [
-                { 
+                {
                     dates: '9/2020 -',
                     title: 'Software Engineer',
                     subtitle: "Robocorp Oy",
@@ -116,7 +116,7 @@ const mainColumnContent = [
                     title: "Chairman of the Board, entrepreneur", 
                     subtitle: "Muisoft Oy",
                     description: "Selling and delivering consulting services for various small-scale projects"
-                }, { 
+                }, {
                     dates: "5/2020 - 8/2020", 
                     title: "Junior Developer", 
                     technologies: "Robot Framework, Python, Typescript",
@@ -217,7 +217,7 @@ const mainColumnContent = [
 			type: 'full-details',
 			label: 'Education',
 			details: [
-                { 
+                {
                     title: "Bachelor’s degree in Computer Science",
                     subtitle: "Helsinki University",
                     dates: "09/2017-",
@@ -261,4 +261,23 @@ const mainColumnContent = [
         */
 	];
 
-export { sideColumnContent, mainColumnContent}
+const headerContent = {
+    name: 'Kerkko Pelttari',
+    summaryLines: [
+        'Always solving problems.'
+    ],
+		// 'Curious and adaptable web developer with 10+ months of front end production experience. Especially skilled with React and currently learning more frameworks. Career history includes technical writing, education, and chemical engineering. Always thinking about the user experience. Always brainstorming app ideas.',
+
+		// meaningful and impactful
+		// supporting the underdog
+
+		// I enjoy data, design, and clean code.
+
+		// Enjoy the act of creation as well as refactoring.
+
+		// I like to build things I like to use.
+
+		// Try to be thoughtful always.}
+}
+
+export { sideColumnContent, mainColumnContent, headerContent }

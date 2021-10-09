@@ -3,7 +3,7 @@
 	import Skills from '../sections/Skills.svelte';
 	import FullDetails from '../sections/FullDetails.svelte';
 	import SimpleDetails from '../sections/SimpleDetails.svelte';
-	import Picture from '../sections/Picture.svelte';
+	import Picture from '../items/Picture.svelte';
 	export let label;
 	export let details;
 	export let type;

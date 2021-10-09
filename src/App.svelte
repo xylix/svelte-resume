@@ -1,11 +1,10 @@
 <script>
 	import Header from './components/structural/Header.svelte';
-  import Section from './components/structural/Section.svelte';
+    import Section from './components/structural/Section.svelte';
 
-  import { mainColumnContent, sideColumnContent }  from './content';
-
-
+    import { mainColumnContent, sideColumnContent }  from './content';
 </script>
+
 <style>
 	div.main-body {
 		display: flex;
@@ -33,19 +32,17 @@
 </style>
 
 <main>
-	<Header />
-  <div class="main-body">
-
-  <div id="main-column" class="column">
-    {#each mainColumnContent as { label, details, type }}
-      <Section {label} {details} {type}></Section>
-    {/each}
-  </div>
-  <div id="side-column" class="column">
-    {#each sideColumnContent as { label, details, type }}
-      <Section {label} {details} {type}></Section>
-    {/each}
-  </div>
-
-  </div>
+    <Header />
+    <div class="main-body">
+        <div id="main-column" class="column">
+            {#each mainColumnContent as { label, details, type }}
+                <Section {label} {details} {type} />
+            {/each}
+        </div>
+        <div id="side-column" class="column">
+            {#each sideColumnContent as { label, details, type }}
+            <Section {label} {details} {type} />
+            {/each}
+        </div>
+    </div>
 </main>
