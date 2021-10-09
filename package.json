@@ -6,13 +6,16 @@
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
     "lint": "eslint src/ --ext .svelte",
-    "format": "prettier --write ./src/**/*.{js,svelte,html,ts}"
+    "format": "prettier --write ./src/**/*.{js,svelte}",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
     "eslint": "^6.8.0",
     "eslint-plugin-svelte3": "^2.7.3",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.1",
     "prettier": "^2.0.0",
     "prettier-plugin-svelte": "^2.4.0",
     "rollup": "^2.3.4",
@@ -25,5 +28,9 @@
   },
   "dependencies": {
     "sirv-cli": "^0.4.4"
+  },
+  "lint-staged": {
+    "*.svelte": "eslint --cache --fix",
+    "*.{js,svelte}": "prettier --write"
   }
 }
