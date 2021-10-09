@@ -4,8 +4,8 @@
 
 :root {
 	/* ADJUST COLOR */
-	/* --accent-color: #55777c; */
-	--link-color: #959595;
+    --accent-color: #55777c;
+    --link-color: #959595;
 	--accent-font: 'Open Sans', sans-serif;
 	--grey-dark: #333;
 	--grey-mid-dark: #545454;
@@ -138,6 +138,7 @@ hr.section-underline {
 	font-size: 1.85em;
 	text-transform: uppercase;
 	text-align: var(--more-centered);
+    /* background-color: "aliceblue"; */
 }
 
 .title {
