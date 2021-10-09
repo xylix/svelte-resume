@@ -3,7 +3,11 @@
 	import MainColumn from './MainColumn.svelte';
 
 	export const sideColumn = [
-		{
+        { 
+            type: "picture", 
+            label: "photo of Kerkko Pelttari", 
+            details: "assets/2019_picture.jpg" 
+        }, {
 			type: 'contact',
 			label: 'Contact',
 			details: [
