@@ -10,7 +10,6 @@
 </script>
 
 
-
 <div class="section">
     {#if type === 'picture' }
         <Picture {label} {details} />

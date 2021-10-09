@@ -5,7 +5,7 @@
 
 <style>
     #header-image {
-        height: 100%;
+        height: 15rem;
     }
 </style>
 

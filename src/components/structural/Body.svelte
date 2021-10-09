@@ -3,16 +3,16 @@
 	import MainColumn from './MainColumn.svelte';
 
 	export const sideColumn = [
-        { 
+        /* { 
             type: "picture", 
             label: "photo of Kerkko Pelttari", 
             details: "assets/2019_picture.jpg" 
-        }, {
+        },*/ {
 			type: 'contact',
 			label: 'Contact',
 			details: [
 				{
-					subcategory: 'Say hi',
+					subcategory: 'Details',
 					contactDetails: [
 						{
 							isLink: true,
@@ -20,7 +20,6 @@
 							text: 'kerk.pelt@gmail.com',
 							icon: 'email',
 						},
-                        /* TODO: implement picture here */ 
 						{
 							isLink: true,
 							type: 'phone',
@@ -34,7 +33,7 @@
 					],
 				},
 				{
-					subcategory: 'Find me online',
+					subcategory: 'Online',
 					contactDetails: [
                     /*
 						{
@@ -111,6 +110,12 @@
                     location: "Helsinki",
                     technologies: 'Robot Framework, Python, Typescript',
                     description: 'Developing custom Jupyterlab variant and Robot Framework libraries for RPA developing end users. Closed-source full-stack development along with some open-source Python / browser-extension development.'
+
+                }, {
+                    dates: "06/2020 -",
+                    title: "Chairman of the Board, entrepreneur", 
+                    subtitle: "Muisoft Oy",
+                    description: "Selling and delivering consulting services for various small-scale projects"
                 }, { 
                     dates: "5/2020 - 8/2020", 
                     title: "Junior Developer", 
@@ -119,11 +124,6 @@
                     location: "Helsinki", 
                     description:
            "Summer job, developing Browser automation library Robot Framework Browser at Reaktor for Robocorp Inc. Mostly worked with a 2-person team, with a larger open-source team governing the project. See https://github.com/MarketSquare/robotframework-browser#robotframework-browser"
-                }, {
-                    dates: "06/2020 -",
-                    title: "Chairman of the Board, entrepreneur", 
-                    subtitle: "Muisoft Oy",
-                    description: "Selling and delivering consulting services for various small-scale projects"
                 }, {
                     dates: "10/2017 - 10/2018",
                     title: "Linux Developer", 
