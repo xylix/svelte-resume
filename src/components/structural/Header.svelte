@@ -1,7 +1,9 @@
 <script>
-	export const name = 'Theresa Morelli';
+	export const name = 'Kerkko Pelttari';
 	const summaryLines = [
-		'Curious and adaptable web developer with 10+ months of front end production experience. Especially skilled with React and currently learning more frameworks. Career history includes technical writing, education, and chemical engineering. Always thinking about the user experience. Always brainstorming app ideas.',
+        'Always solving problems.'
+    ];
+		// 'Curious and adaptable web developer with 10+ months of front end production experience. Especially skilled with React and currently learning more frameworks. Career history includes technical writing, education, and chemical engineering. Always thinking about the user experience. Always brainstorming app ideas.',
 
 		// meaningful and impactful
 		// supporting the underdog
@@ -13,7 +15,6 @@
 		// I like to build things I like to use.
 
 		// Try to be thoughtful always.
-	];
 </script>
 
 <style>
