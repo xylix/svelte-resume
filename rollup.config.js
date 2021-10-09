@@ -52,7 +52,8 @@ export default {
 	],
 	watch: {
 		clearScreen: false,
-    include: "public/global.css"
+    include: "public/global.css",
+    include: 'src/**'
 	}
 
 };
