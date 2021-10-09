@@ -2,7 +2,7 @@
 	import SideColumn from './SideColumn.svelte';
 	import MainColumn from './MainColumn.svelte';
 
-	export const sideColumn = [
+	const sideColumn = [
         /* { 
             type: "picture", 
             label: "photo of Kerkko Pelttari", 
@@ -101,7 +101,7 @@
         */ 
 
 	];
-	export const mainColumn = [
+	const mainColumn = [
 		{
 			type: 'full-details',
 			label: 'Experience',
@@ -220,18 +220,19 @@
 			type: 'full-details',
 			label: 'Education',
 			details: [
-                {
-                    title: "High school",
-                    location: "Valkeakoski",
-                    subtitle: "Päivölän opisto / Valkeakosken Tietotien lukio",
-                    dates: "07/2015 - 06/2017",
-                },
                 { 
                     title: "Bachelor’s degree in Computer Science",
                     subtitle: "Helsinki University",
                     dates: "09/2017-",
                     location: "Helsinki",
+                    description: ""
                     /* TODO: implement courses / opintosuoritusote data here */
+                },
+                {
+                    title: "High school",
+                    location: "Valkeakoski",
+                    subtitle: "Päivölän opisto / Valkeakosken Tietotien lukio",
+                    dates: "07/2015 - 06/2017",
                 },
 			],
 		},
