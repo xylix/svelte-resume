@@ -71,7 +71,10 @@
 				'NodeJS',
 				'Express',
 				'Git',
-                'Python', 'Kotlin', 'Bash / POSIX', 
+                'Python', 
+                'Kotlin',
+                'Bash / POSIX',
+                'Maintaining Open-Source'
 			],
 		},
         /* TODO: implement big skills element 

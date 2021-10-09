@@ -29,7 +29,7 @@
 
 	#my-name {
 		text-transform: uppercase;
-		color: var(--accent-color);
+		color: black;
 		font-family: var(--accent-font);
 		font-size: 3em;
 		margin: 0;

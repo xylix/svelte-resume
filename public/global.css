@@ -4,7 +4,9 @@
 
 :root {
 	/* ADJUST COLOR */
-    --accent-color: #55777c;
+    --accent-color: #08f; */
+    --background-accent: aliceblue;
+
     --link-color: #959595;
 	--accent-font: 'Open Sans', sans-serif;
 	--grey-dark: #333;
@@ -121,6 +123,7 @@ ul {
 
 hr.section-underline {
 	margin: -1px 0 var(--vertical-space-between-subsections) 0;
+    color: var(--accent-color);
 }
 
 .section {
@@ -133,7 +136,8 @@ hr.section-underline {
 
 .section-label {
 	margin-bottom: 0;
-	color: var(--accent-color);
+	color: black;
+    background-color: var(--background-accent);
 	font-family: var(--accent-font);
 	font-size: 1.85em;
 	text-transform: uppercase;
@@ -143,7 +147,7 @@ hr.section-underline {
 
 .title {
 	display: flex;
-	font-family: var(--accent-font);
+	font-family: ;
 	font-size: 1.3em;
 	font-weight: 500;
 	justify-content: space-between;
