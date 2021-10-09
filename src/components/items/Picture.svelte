@@ -1,6 +1,6 @@
 <script>
-	export let label;
-	export let details;
+    export let label
+    export let details
 </script>
 
 <style>
@@ -10,4 +10,3 @@
 </style>
 
 <img id="header-image" alt={label} src={details} />
-
