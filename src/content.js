@@ -1,8 +1,4 @@
-<script>
-	import SideColumn from './SideColumn.svelte';
-	import MainColumn from './MainColumn.svelte';
-
-	const sideColumn = [
+const sideColumnContent = [
         /* { 
             type: "picture", 
             label: "photo of Kerkko Pelttari", 
@@ -101,7 +97,8 @@
         */ 
 
 	];
-	const mainColumn = [
+
+const mainColumnContent = [
 		{
 			type: 'full-details',
 			label: 'Experience',
@@ -263,18 +260,5 @@
 		},
         */
 	];
-</script>
 
-<style>
-	div {
-		display: flex;
-		justify-content: space-between;
-		flex-direction: var(--column-order);
-		margin: 0 var(--horizontal-offset);
-	}
-</style>
-
-<div class="main-body">
-	<MainColumn sections={mainColumn} />
-	<SideColumn sections={sideColumn} />
-</div>
+export { sideColumnContent, mainColumnContent}

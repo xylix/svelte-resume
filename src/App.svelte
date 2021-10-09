@@ -1,11 +1,51 @@
 <script>
 	import Header from './components/structural/Header.svelte';
-	import Body from './components/structural/Body.svelte';
-	import Footer from './components/structural/Footer.svelte';
+  import Section from './components/structural/Section.svelte';
+
+  import { mainColumnContent, sideColumnContent }  from './content';
+
+
 </script>
+<style>
+	div.main-body {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: var(--column-order);
+		margin: 0 var(--horizontal-offset);
+	}
+
+  .column {
+		margin: 0 var(--horizontal-space-between-columns);
+		display: flex;
+		flex-direction: column;
+  }
+
+	#main-column {
+		width: var(--main-column-width);
+		justify-content: space-between;
+	}
+
+	#side-column {
+		width: calc(100% - var(--main-column-width));
+		text-align: var(--more-centered);
+		/* justify-content: space-between; */
+	}
+</style>
 
 <main>
 	<Header />
-	<Body />
-	<Footer />
+  <div class="main-body">
+
+  <div id="main-column" class="column">
+    {#each mainColumnContent as { label, details, type }}
+      <Section {label} {details} {type}></Section>
+    {/each}
+  </div>
+  <div id="side-column" class="column">
+    {#each sideColumnContent as { label, details, type }}
+      <Section {label} {details} {type}></Section>
+    {/each}
+  </div>
+
+  </div>
 </main>
