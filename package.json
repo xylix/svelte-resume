@@ -7,7 +7,8 @@
     "start": "sirv public --no-clear",
     "lint": "eslint src/ --ext .svelte",
     "format": "prettier --write ./src/**/*.{js,svelte}",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "deploy": "npm run build && scp -r public/* xylix.fi:/var/www/cv"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
