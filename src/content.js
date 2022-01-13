@@ -102,7 +102,7 @@ const sideColumnContent = [
 ]
 
 const mainColumnContent = [
-    {
+    /*{
         type: "full-details",
         label: "Association experience",
         details: [
@@ -126,7 +126,7 @@ const mainColumnContent = [
                     "Teaching programming / computer science basics (hardware, command line, programming tools, programming languages), organizing volunteers and other teachers during summers, planning the curriculum",
             },
         ],
-    },
+    },*/
     {
         type: "full-details",
         label: "Work Experience",
