@@ -70,9 +70,11 @@ const sideColumnContent = [
             "Git",
             "Python",
             // "Kotlin",
-            "Shell scripting",
+            // "Shell scripting",
+            "Bash",
             "Maintaining Open-Source",
             "Shipping MVPs",
+            "Working in self-directing teams",
         ],
     },
     /* TODO: implement big skills element 
@@ -102,7 +104,32 @@ const sideColumnContent = [
 const mainColumnContent = [
     {
         type: "full-details",
-        label: "Experience",
+        label: "Association experience",
+        details: [
+            {
+                dates: "2021-",
+                title: "Association Active",
+                subtitle: "EA Finland / Helsinki",
+                location: "Helsinki",
+                technologies: "Technical administration, participating in projects",
+                description:
+                    "I've been responsible for the little server infrastructure we have (mostly for lahjoittaminen.fi), and also participated in the project for a couple months. I have done some career coaching practice, and been career coached myself. I am responsible for the career club but it mostly runs by itself. I was responsible for preparing and holding the initial 2022 strategy meeting, but also got support from other volunteers for it. ",
+            },
+            {
+                dates: "2018-2021",
+                title: "Teaching Organizer, Teacher",
+                subtitle: "Päivölän Opisto",
+                location: "Valkeakoski",
+                technologies:
+                    "Organizing volunteers, teaching 15-year olds, reporting volunteer details to bureucrats",
+                description:
+                    "Teaching programming / computer science basics (hardware, command line, programming tools, programming languages), organizing volunteers and other teachers during summers, planning the curriculum",
+            },
+        ],
+    },
+    {
+        type: "full-details",
+        label: "Work Experience",
         details: [
             {
                 dates: "9/2020 -",
@@ -111,7 +138,7 @@ const mainColumnContent = [
                 location: "Helsinki",
                 technologies: "Robot Framework, Python, Typescript",
                 description:
-                    "Developing custom Jupyterlab variant and Robot Framework libraries for RPA developing end users. Closed-source full-stack development along with some open-source Python / browser-extension development.",
+                    "Developing Robot Framework libraries for RPA developing end users. Closed-source full-stack development along with some open-source Python and browser-extension development.",
             },
             {
                 dates: "06/2020 -",
@@ -132,27 +159,29 @@ const mainColumnContent = [
             {
                 dates: "10/2017 - 10/2018",
                 title: "Linux Developer",
-                technologies: "Java, bash",
+                technologies: "Java, bash, Confluence, Jira",
                 subtitle: "Contribyte Oy",
                 location: "Helsinki",
                 description:
-                    "Fixed-term job, mostly working with Confluence / Jira and VersionOne. Writing some plugins, scripts and customer support.",
+                    "Working with Confluence / Jira and VersionOne. Writing some plugins, scripts and doing customer support.",
             },
+            /*
             {
                 dates: "06/2017 – 09/2017",
                 title: "Junior Fullstack Developer",
                 subtitle: "APInf Oy",
                 location: "Tampere",
-                description:
+                description: ""
                     "Summer job working on OpenAPI designer  and  OpenAPI space. Frontend development with Aurelia JS framework and backend with python. Small team, worked with Kanban",
             },
+          */
             {
                 dates: "08/2015– 06/2017",
                 title: "Trainee",
                 subtitle: "Päivölä Student Innovation Lab (PSIL) Oy",
                 location: "Valkeakoski",
                 description:
-                    "High school studies included job training, 12 hours every week. I did a little bit of everything, from deployment to full stack development to helping with programming classes for middle schoolers.",
+                    "High school studies included work internship, 12 hours every week. I did a little bit of everything, from deployment to full stack development to helping with programming classes for middle schoolers.",
             },
 
             /* {
