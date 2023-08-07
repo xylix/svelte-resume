@@ -1,8 +1,8 @@
 const sideColumnContent = [
-    /* { 
-            type: "picture", 
-            label: "photo of Kerkko Pelttari", 
-            details: "assets/2019_picture.jpg" 
+    /* {
+            type: "picture",
+            label: "photo of Kerkko Pelttari",
+            details: "assets/2019_picture.jpg"
         },*/ {
         type: "contact",
         label: "Contact",
@@ -77,13 +77,13 @@ const sideColumnContent = [
             "Working in self-directing teams",
         ],
     },
-    /* TODO: implement big skills element 
+    /* TODO: implement big skills element
         Skills
             Javascript + Typescript: React webpages and schoolwork, backend for Robotframework Browser
             Python – Scripts, major work experience
 
             Robot Framework: Writing a big Browser automation library and the corresponding tests. Testing other python projects with Robot.
-            Java – University courses, couple of own projects. 
+            Java – University courses, couple of own projects.
             Kotlin - Converted some projects from java to kotlin.
             Rust - Backend development for a medium sized open source project (aw-server-rust)
 
@@ -132,7 +132,7 @@ const mainColumnContent = [
         label: "Work Experience",
         details: [
             {
-                dates: "9/2020 -",
+                dates: "9/2020 - 06/2023",
                 title: "Software Engineer",
                 subtitle: "Robocorp Oy",
                 location: "Helsinki",
@@ -141,7 +141,7 @@ const mainColumnContent = [
                     "Developing Robot Framework libraries for RPA developing end users. Closed-source full-stack development along with some open-source Python and browser-extension development.",
             },
             {
-                dates: "06/2020 -",
+                dates: "06/2020 - 02/2022",
                 title: "Chairman of the Board, entrepreneur",
                 subtitle: "Muisoft Oy",
                 description:
