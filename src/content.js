@@ -254,6 +254,21 @@ const mainColumnContent = [
     },
     {
         type: "full-details",
+        label: "Volunteering",
+        details: [
+            {
+                dates: "4/2022 - 05/2023",
+                title: "Chair of the Board",
+                subtitle: "Effective Altruism Finland",
+                location: "Helsinki",
+                // technologies: "Robot Framework, Python, Typescript",
+                description:
+                    "Applying for funding, bureucratical tasks, decisionmaking and leading the board, managing and supporting our employees.",
+            },
+        ],
+    },
+    {
+        type: "full-details",
         label: "Education",
         details: [
             {
