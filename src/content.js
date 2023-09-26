@@ -1,9 +1,10 @@
 const sideColumnContent = [
-    /* {
-            type: "picture",
-            label: "photo of Kerkko Pelttari",
-            details: "assets/2019_picture.jpg"
-        },*/ {
+    {
+        type: "picture",
+        label: "photo of Kerkko Pelttari",
+        details: "assets/2022_picture.jpg",
+    },
+    {
         type: "contact",
         label: "Contact",
         details: [
@@ -76,6 +77,11 @@ const sideColumnContent = [
             "Shipping MVPs",
             "Working in self-directing teams",
         ],
+    },
+    {
+        type: "skills",
+        label: "Hobbies",
+        details: ["LARPing", "Tabletop RPGs", "Video games", "Meditation", "Reading"],
     },
     /* TODO: implement big skills element
         Skills
