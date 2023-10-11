@@ -70,6 +70,7 @@ const sideColumnContent = [
             // "Express",
             "Git",
             "Python",
+            "Robot Framework",
             // "Kotlin",
             // "Shell scripting",
             "Bash",
