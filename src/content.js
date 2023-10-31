@@ -71,6 +71,7 @@ const sideColumnContent = [
             "Git",
             "Python",
             "Robot Framework",
+            "Java",
             // "Kotlin",
             // "Shell scripting",
             "Bash",
